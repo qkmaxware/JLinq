@@ -1,0 +1,11 @@
+<header>
+	<column name="uid" type="FileDatabase.Types.SequenceType" constraints="FileDatabase.Constraints.PrimaryKey"/>
+	<column name="name" type="FileDatabase.Types.VarcharType" constraints=""/>
+	<column name="age" type="FileDatabase.Types.IntegerType" constraints=""/>
+</header>
+<rows>
+	<row data="[1, Johnny, 24]"/>
+	<row data="[2, Kim, 18]"/>
+	<row data="[3, Anne, 26]"/>
+	<row data="[4, Mark, 20]"/>
+</rows>
